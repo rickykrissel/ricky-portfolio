@@ -3,6 +3,11 @@ import { ColorModeContext, HStack, Image, StackDivider, Switch, Text} from '@cha
 import headshot from '../websiteheadshot.jpg'
 import ColorModeSwitch from './ColorModeSwitch'
 const MenuBar = () => {
+  
+  const baritems = [
+    
+  ];
+  //about me, projects, github, resume, contact me
   return (
     <HStack spacing={6}>
       <HStack>

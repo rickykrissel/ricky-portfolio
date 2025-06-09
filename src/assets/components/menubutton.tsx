@@ -1,9 +1,13 @@
 import React from 'react'
 import { Button } from '@chakra-ui/react'
-
-const menubutton = () => {
+interface Props{
+  pgtitle:string;
+  pglink:string;
+  pgtarget:string;
+}
+const menubutton = ({pgtitle, pglink} : Props) => {
   return (
-    <Button></Button>
+    <a href={pglink}>{pgtitle}</a>
   )
 }
 
