@@ -5,7 +5,7 @@ function App() {
 
   return (
     <Grid templateAreas={`"nav nav" "main main"`}>
-      <GridItem area='nav' bg='#ffffff'>
+      <GridItem area='nav'>
         <MenuBar></MenuBar>
       </GridItem>
       <GridItem area='main' bg='dodgerblue'>
