@@ -5,10 +5,10 @@ function App() {
 
   return (
     <Grid templateAreas={`"nav nav" "main main"`}>
-      <GridItem area='nav'>
+      <GridItem area='nav' paddingBottom='5px'>
         <MenuBar></MenuBar>
       </GridItem>
-      <GridItem area='main' bg='dodgerblue'>
+      <GridItem area='main' borderTopWidth="2px">
         Main
       </GridItem>
     </Grid>
