@@ -1,14 +1,14 @@
-import React from 'react'
-import { Button } from '@chakra-ui/react'
-interface Props{
-  pgtitle:string;
-  pglink:string;
-  pgtarget:string;
-}
-const menubutton = ({pgtitle, pglink} : Props) => {
-  return (
-    <a href={pglink}>{pgtitle}</a>
-  )
-}
+import { Webpage } from "../../data/WebpageInterface";
 
-export default menubutton
+interface Props {
+  webpage: Webpage;
+}
+const MenuButton = ({ webpage }: Props) => {
+  return (
+    <a href={webpage.pglink} target={webpage.pgtarget}>
+      {webpage.pgtitle}
+    </a>
+  );
+};
+
+export default MenuButton;

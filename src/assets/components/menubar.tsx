@@ -1,23 +1,36 @@
-import React from 'react'
-import { ColorModeContext, HStack, Image, StackDivider, Switch, Text} from '@chakra-ui/react'
-import headshot from '../websiteheadshot.jpg'
-import ColorModeSwitch from './ColorModeSwitch'
+import { HStack, Image, Text } from "@chakra-ui/react";
+import headshot from "../websiteheadshot.jpg";
+import ColorModeSwitch from "./ColorModeSwitch";
+import MenuButton from "./MenuButton";
+import { Webpage } from "../../data/WebpageInterface";
 const MenuBar = () => {
-  
-  const baritems = [
-    
+
+  const pages : Webpage[] = [
+    {pgtitle: 'Home', pglink:'index.html', pgtarget: ''},
+    {pgtitle: 'About Me', pglink:'about-me.html', pgtarget: ''},
+    {pgtitle: 'Projects', pglink:'projects.html', pgtarget: ''},
+    {pgtitle: 'GitHub', pglink:'https://github.com/rickykrissel', pgtarget: '_blank'},
+    {pgtitle: 'Resume', pglink:'ricky-krissel-resume.pdf', pgtarget: '_blank'},
+    {pgtitle: 'Contact Me', pglink:'contact-me.html', pgtarget: ''},
   ];
-  //about me, projects, github, resume, contact me
+  
   return (
-    <HStack spacing={6}>
-      <HStack>
-        <Image borderRadius='full' src={headshot} boxSize='50px' alt ='Ricky Krissel'/>
+    <HStack spacing={6} justifyContent='space-between'>
+      <HStack paddingLeft={2}>
+        <Image
+          borderRadius="full"
+          src={headshot}
+          boxSize="50px"
+          alt="Ricky Krissel"
+        />
         <Text>Ricky Krissel</Text>
       </HStack>
-      
-      <ColorModeSwitch></ColorModeSwitch>
+      <HStack spacing={140}>
+        {pages.map(page => <MenuButton webpage={page}></MenuButton>)}
+      </HStack>
+      <ColorModeSwitch/>
     </HStack>
-  )
-}
+  );
+};
 
-export default MenuBar
+export default MenuBar;

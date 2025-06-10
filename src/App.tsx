@@ -1,6 +1,6 @@
 import { Grid, GridItem} from '@chakra-ui/react'
 import './App.css'
-import MenuBar from './assets/components/menubar'
+import MenuBar from './assets/components/MenuBar'
 function App() {
 
   return (
