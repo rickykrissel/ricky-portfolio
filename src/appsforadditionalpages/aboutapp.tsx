@@ -9,7 +9,7 @@ function AboutApp() {
         <MenuBar></MenuBar>
       </GridItem>
       <GridItem  paddingTop={300}area='main' borderTopWidth="2px">
-        <Stack paddingLeft={520} width={1400}>
+        <Stack justifyContent='center'paddingLeft={520} width={1400}>
         <p>
           Hello, my name is Ricky Krissel. Computer science and programming have been  interests of mine throughout my highschool and college education. I am currently furthering this passion by pursuing a bachelor's degree in Computer Science at Florida State University.
         </p>
