@@ -8,8 +8,10 @@ function AboutApp() {
       <GridItem area='nav' paddingBottom='5px'>
         <MenuBar></MenuBar>
       </GridItem>
-      <GridItem  paddingTop={300} area='main' borderTopWidth="2px">
+      <GridItem   area='main' borderTopWidth="2px">
         <Stack justifyContent='center'paddingLeft={520} width={1400}>
+          <Text paddingLeft={310} fontFamily='ui-rounded' as='b'fontSize='5xl'>About Me</Text>
+          <Text paddingTop={50}></Text>
         <p>
           Hello, my name is Ricky Krissel. Computer science and programming have been  interests of mine throughout my highschool and college education. I am currently furthering this passion by pursuing a bachelor's degree in Computer Science at Florida State University.
         </p>
