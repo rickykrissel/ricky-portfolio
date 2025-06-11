@@ -19,7 +19,7 @@ function App() {
           </ul>
           
         </Stack>
-        <Image width={400}  src='./src/assets/components/computerimg.png'></Image>
+        <Image width={400}  alt='Programming And Web Technology Vector With Computer Illustration Image by pngtree.com'src='./src/assets/components/computerimg.png'></Image>
         </HStack>
         
       </GridItem>
