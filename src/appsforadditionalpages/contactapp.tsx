@@ -13,7 +13,7 @@ function ContactApp() {
             <Text paddingRight={95} fontFamily="ui-rounded" fontSize="5xl">
               Contact Me Below At:
             </Text>
-            <a href="mailto:rmk23d@fsu.edu">rmk23d@fsu.edu</a>
+            <a id='email'href="mailto:rmk23d@fsu.edu">rmk23d@fsu.edu</a>
           </Stack>
         </HStack>
       </GridItem>

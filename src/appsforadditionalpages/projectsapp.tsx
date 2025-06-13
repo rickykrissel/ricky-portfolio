@@ -16,6 +16,7 @@ function ProjectApp() {
           <ul>
             <li>
               <a
+                id='project'
                 target="_blank"
                 href="https://rickykrissel.github.io/solitaire/"
               >
@@ -29,6 +30,7 @@ function ProjectApp() {
             </li>
             <li>
               <a
+                id='project'
                 target="_blank"
                 href="https://github.com/rickykrissel/emailspamlogreg"
               >
@@ -44,6 +46,7 @@ function ProjectApp() {
             </li>
             <li>
               <a
+                id='project'
                 target="_blank"
                 href="https://github.com/rickykrissel/housingproj"
               >
