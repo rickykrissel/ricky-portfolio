@@ -1,6 +1,7 @@
 import { Grid, GridItem, Stack, Text, Image, HStack } from "@chakra-ui/react";
 import "./App.css";
 import MenuBar from "./assets/components/MenuBar";
+import compimg from './assets/computerimg.png'
 function App() {
   return (
     <Grid templateAreas={`"nav nav" "main main"`}>
@@ -24,7 +25,7 @@ function App() {
           <Image
             width={400}
             alt="Programming And Web Technology Vector With Computer Illustration Image by pngtree.com"
-            src="src/assets/computerimg.png"
+            src={compimg}
           ></Image>
         </HStack>
       </GridItem>
