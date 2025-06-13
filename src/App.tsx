@@ -24,7 +24,7 @@ function App() {
           <Image
             width={400}
             alt="Programming And Web Technology Vector With Computer Illustration Image by pngtree.com"
-            src="./src/assets/components/computerimg.png"
+            src="./src/assets/computerimg.png"
           ></Image>
         </HStack>
       </GridItem>

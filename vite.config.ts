@@ -14,7 +14,8 @@ export default defineConfig({
         home: resolve(__dirname,'index.html'),
         aboutMe: resolve(__dirname, 'about-me.html'),
         contactMe: resolve(__dirname,'contact-me.html'),
-        projects: resolve(__dirname,'projects.html')
+        projects: resolve(__dirname,'projects.html'),
+        resume: resolve(__dirname, 'ricky-krissel-resume.pdf')
       },
     },
   },
