@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-// https://vitejs.dev/config/
+
+
 export default defineConfig({
   plugins: [react()],
   build: {
@@ -15,7 +16,7 @@ export default defineConfig({
         aboutMe: resolve(__dirname, 'about-me.html'),
         contactMe: resolve(__dirname,'contact-me.html'),
         projects: resolve(__dirname,'projects.html'),
-        resume: 'ricky-krissel-resume.pdf'
+        resume: '/ricky-krissel-resume.pdf'
       },
     },
   },
