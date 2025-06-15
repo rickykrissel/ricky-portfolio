@@ -3,6 +3,7 @@ import headshot from "../websiteheadshot.jpg";
 import ColorModeSwitch from "./ColorModeSwitch";
 import MenuButton from "./MenuButton";
 import { Webpage } from "../../data/WebpageInterface";
+
 const MenuBar = () => {
 
   const pages : Webpage[] = [
@@ -10,7 +11,7 @@ const MenuBar = () => {
     {pgtitle: 'About Me', pglink:'about-me.html', pgtarget: ''},
     {pgtitle: 'Projects', pglink:'projects.html', pgtarget: ''},
     {pgtitle: 'GitHub', pglink:'https://github.com/rickykrissel', pgtarget: '_blank'},
-    {pgtitle: 'Resume', pglink:'ricky-krissel-resume.pdf', pgtarget: '_blank'},
+    {pgtitle: 'Resume', pglink:'/ricky-krissel-resume.pdf', pgtarget: '_blank'},
     {pgtitle: 'Contact Me', pglink:'contact-me.html', pgtarget: ''},
   ];
   
